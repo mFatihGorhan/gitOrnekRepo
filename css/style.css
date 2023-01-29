@@ -45,3 +45,46 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    background: rgb(86, 119, 62);
+    margin-left: -95px;
+    margin-top: 1px;
+    display: flex;
+ }
+
+ .container .sidebar {
+    width: 80px;
+    height: 300px;
+    background: rgb(160, 154, 154);
+  }
+
+  .container .sidebar ul {
+    list-style: none;
+    margin: 0px;
+  }
+
+  .container .sidebar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .container .content {
+    background: rgb(175, 3, 3);
+    width: 520px;
+    height: 150px;
+    padding: 5px 0 0 5px;
+    opacity: 0.85;
+  }
